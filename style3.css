@@ -1,0 +1,176 @@
+	/* CSS coded sorted alphabetically */
+	
+   /* Sorted as they appear on page and in code*/ 
+
+   * {
+	text-align: center;
+	box-sizing: border-box;
+	background-color: rgba(237, 236, 232, 1);
+	}
+	
+	.ttpd{ /*header image*/
+	  width: 25%;
+	  height: 10%;
+	  float: left;
+	}
+
+	#title {
+		color: #044E1B;
+		display: block;
+		margin:auto;
+		font-size: 5rem;
+	}
+
+	.options a{
+		color: #66646f;
+		text-decoration: none;
+		font-family: 'Courier New', Courier, monospace;
+	} 
+	
+	.options {
+		display: inline;
+		font-size: calc(1.5vw + 1.5vh);
+		margin:auto;
+		text-align: left;
+		overflow: hidden;
+		white-space: nowrap;
+		width: 100%;
+		text-align:left;
+		}
+
+	.navitems {
+			display: inline;
+			padding-bottom: 100px;
+			text-decoration:none;
+
+		}
+
+	.container {
+			width:100%;
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+	#new { /*new cardigan text style*/ 
+			color: #044E1B;
+		}
+	.cardigan { /*cardigan section*/
+			font-family: 'Courier New', Courier, monospace, sans-serif;
+		}
+	.card { /*cardigan image*/
+		max-width: 50%;
+		overflow:hidden;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;	
+		}
+
+	h3{ /*smaller text*/
+		color: #66646f;
+	}
+
+	#Tour { /*Eras Tour heading*/
+		color: #044E1B;
+	}
+
+	ul{ /*eras tour items*/
+		list-style-type: none;
+		font-family: 'Courier New', Courier, monospace, sans-serif;
+		color: #6f646c;
+	}
+
+	#vinylfont { /*make vinyl section heading green*/
+		color: #044E1B;
+	}
+
+	.midnight {
+		width: 30%;
+	}
+
+	h1{
+		font-size: 1.71rem; 
+	    padding-top: 4px;
+	    margin: 0px;
+	    text-align: center;
+		font-family: 'Crimson Text', sans-serif;
+		font-style: italic;
+		color: #044E1B;
+	}
+	
+	#Directed {
+			color: #044E1B;
+			align-items: center;
+		}
+	
+	.directedfont {
+			text-decoration: none;
+			color: #66646f;
+		}
+
+	.row { /*directed videos font*/
+			text-decoration: none;
+			color:#66646f;
+		}
+	/*music video images */
+	.fort{ 
+		max-width: 120%;
+		padding: 50px;
+	}
+	.see {
+		max-width: 150%;
+		padding: 50px;
+	}
+	.heart{
+		max-width: 105%;
+		padding: 50px;
+	}
+	/*subscribe form*/
+	#Sign {
+		color: #044E1B;	
+	}
+
+	form {
+		font-family: 'Courier New', Courier, monospace;
+	}
+
+	footer{
+		margin: 0px auto 55px auto;
+		padding: 20px;
+		clear:both;
+		display: block;
+	}
+
+	/* Column drop on smaller screens */
+	 @media screen and (min-width:500px) {
+		.cardigan {
+			width: 25%;
+		}
+		.eras {
+			width: 75%;
+		}
+	}
+	
+	@media screen and (min-width: 768px) {
+		.container {
+			width:700px;
+			margin: 0 auto;
+		
+		}
+		.eras {
+			width: 50%;
+		}
+		.record {
+			width: 25%;
+		}
+	}
+		
+
+
+
+
+
+
+
+	
+	
+	
